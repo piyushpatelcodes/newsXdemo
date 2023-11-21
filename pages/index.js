@@ -13,7 +13,7 @@ function index() {
       <Link href="/components/Navbar">
           <a>Blog Page</a>
       </Link>
-      <WriteBlogPage />
+      
       <News/>
       <Footer/>
     </>
