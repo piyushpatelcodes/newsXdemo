@@ -32,7 +32,7 @@ const Footer = () => {
                 decoration-2 underline-offset-8 rounded-full p-2 
                 cursor-pointer hover:font-bold capitalize hover:scale-110 transition-transform duration-200 ease-out"
           >
-            Group 1 TEFA DBT Malang
+            Team 280  (P10)
           </a>
         </p>
         <FooterSosmed />
