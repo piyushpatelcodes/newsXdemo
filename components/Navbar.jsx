@@ -1,4 +1,5 @@
-"use client";
+// Navigation.js
+
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import Bar from "./Bar";
@@ -6,11 +7,19 @@ import TodayDate from "./Date";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
+
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       window.scrollY > 0 ? setSticky(true) : setSticky(false);
-    });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+
   return (
     <>
       <nav
