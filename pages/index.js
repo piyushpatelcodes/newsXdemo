@@ -8,6 +8,7 @@ function index() {
   return (
     <>
       <Navbar/>
+      <WriteBlogPage />
       <News/>
       <Footer/>
     </>
