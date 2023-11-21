@@ -1,6 +1,7 @@
 "use client"
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
+import WriteBlogPage from '@/components/WriteBlogPage';
 import News from '@/components/News'
 import React from 'react'
 
